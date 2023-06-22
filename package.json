@@ -1,0 +1,18 @@
+{
+	"name": "cypress-mongo-tools",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"mongo:dumpDB": "sudo node ./cypress/mongo-utils/mongodump.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@faker-js/faker": "^8.0.2",
+		"child_process": "^1.0.2",
+		"cypress": "^12.14.0",
+		"cypress-mongodb": "^5.5.0"
+	}
+}
